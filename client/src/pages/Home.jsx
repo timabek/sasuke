@@ -18,17 +18,20 @@ const Home = () => {
       {snap.intro && (
         <motion.section className="home" {...slideAnimation('left')}>
           <motion.header {...slideAnimation("down")}>
-            <img 
+          <a href="https://remember-delta.vercel.app/"> 
+          <img 
               src='./threejs.png'
               alt="logo"
-              className="w-8 h-8 object-contain"
-            />
+              className="w-12 h-12 object-contain"
+          />
+            </a>
+           
           </motion.header>
 
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
               <h1 className="head-text">
-                LET'S <br className="xl:block hidden" /> DO IT.
+                Make <br className="xl:block hidden" /> miracle.
               </h1>
             </motion.div>
             <motion.div
@@ -41,7 +44,7 @@ const Home = () => {
 
               <CustomButton 
                 type="filled"
-                title="Customize It"
+                title="Make it"
                 handleClick={() => state.intro = false}
                 customStyles="w-fit px-4 py-2.5 font-bold text-sm"
               />
