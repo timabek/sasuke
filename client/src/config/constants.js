@@ -9,7 +9,6 @@ export const EditorTabs = [
     name: "filepicker",
     icon: fileIcon,
   },
-  
 ];
 
 export const FilterTabs = [

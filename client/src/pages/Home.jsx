@@ -31,7 +31,7 @@ const Home = () => {
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
               <h1 className="head-text">
-                Make <br className="xl:block hidden" /> miracle.
+                Make <br className="xl:block hidden" /> trend.
               </h1>
             </motion.div>
             <motion.div
@@ -39,7 +39,7 @@ const Home = () => {
               className="flex flex-col gap-5"
             >
               <p className="max-w-md font-normal text-gray-600 text-base">
-              Create your unique and exclusive shirt with our brand-new 3D customization tool. <strong>Unleash your imagination</strong>{" "} and define your own style.
+              Create your unique and exclusive sportswear with our brand-new 3D customization tool. <strong>Unleash your imagination</strong>{" "} and define your own style.
               </p>
 
               <CustomButton 
